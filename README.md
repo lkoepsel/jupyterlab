@@ -41,6 +41,7 @@ git config --global user.email "myname@mail.com"
 Now your changes have been logged and you are able to continue knowing you may go back in time, if you have a difficult to solve error in your code!
 
 One more very helpful command is `git status`, at any point in time if you are confused as to what changes exist on your repository, use this command. As in:
+
 	```
 	git status
 	On branch main
