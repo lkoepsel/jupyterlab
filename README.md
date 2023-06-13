@@ -11,8 +11,13 @@ Uses Python, JupyterLab and git as examples to learn how to use the tools in cla
 6. In the CLI, enter "clone " (make sure there is a space after the "e"), and *paste* the contents from step 2 above.
 7. The line will look something like this (see below) and press return.
 	```bash
-	clone https://github.com/lkoepsel/jupyterlab.git
+	git clone https://github.com/lkoepsel/jupyterlab.git
 	```
 9. Hit return, this will create a new folder called "*jupyterlab*" on your computer.
 10. Use the application *jupyterlab* to open the folder.
 
+
+
+## Links
+[Python 3.8 Tutorial](https://docs.python.org/3.8/tutorial/index.html)
+[Markdown Reference](https://commonmark.org/help/)
