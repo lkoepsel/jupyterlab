@@ -8,7 +8,7 @@ Uses Python, JupyterLab and git as examples to learn how to use the tools in cla
 3. Open *Git Bash* (Windows) or *Terminal* (macOS). **From here on, the application window will be called the command line interface (CLI).** 
 4. In Explorer (Windows) or Finder (macOS), go to a base folder of your choice, such as "*My Documents*" or "*Documents*" and drag the icon of the folder to your CLI. This is an easy way to open that folder in the CLI.
 5. In the CLI, type "*pwd*" to ensure you are in the right folder, it needs to end with "*My Documents*" or "*Documents*".
-6. In the CLI, enter "clone " (make sure there is a space after the "e"), and *paste* the contents from step 2 above.
+6. In the CLI, enter "git clone " (make sure there is a space after the "e"), and *paste* the contents from step 2 above.
 7. The line will look something like this (see below) and press return.
 	```bash
 	git clone https://github.com/lkoepsel/jupyterlab.git
@@ -57,3 +57,15 @@ One more very helpful command is `git status`, at any point in time if you are c
 ## Links
 * [Python 3.8 Tutorial](https://docs.python.org/3.8/tutorial/index.html)
 * [Markdown Reference](https://commonmark.org/help/)
+
+
+## Frequently Asked Questions
+### Q: What do I mean by “push to your repository”?
+### A: Use the following steps to add your latest work to your GitHub repository:
+1. In the application, *JupyterLab*, save the changes you made in the repository specified. For example, in week 2 we have been working in the week 2 notebook. This means you would `File -> Save` your work in *week2.ipynb*
+2. In the CLI (Git-bash or Terminal) you would execute the following commands:
+```
+git add -A
+git commit -m “message”
+git push origin
+```
